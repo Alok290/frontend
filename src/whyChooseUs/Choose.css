@@ -1,0 +1,53 @@
+.choose {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .title-section-left {
+    width: 400px;
+  }
+  
+  .title {
+    color: #006EE4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title-section-mid {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-section-mid img {
+    width: 200px;
+    height: 500px;
+  }
+  
+  .title-section-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  
+  .title-section-right .MuiPaper-root {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .title-section-right .MuiPaper-root .MuiBox-root {
+    margin-right: 16px;
+  }
+  
+  .title-section-right .MuiTypography-h6 {
+    margin-bottom: 4px;
+  }
+  

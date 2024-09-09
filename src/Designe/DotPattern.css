@@ -1,0 +1,30 @@
+.dot-pattern {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(30deg); /* Rotate the entire pattern by 30 degrees */
+}
+
+.dot-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0; /* Space between rows */
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: blue; /* Color of the dots */
+    border-radius: 50%;
+    margin: 0 5px; /* Space between columns */
+    animation: fadeOut 3s forwards; /* Add fade-out animation */
+    animation-delay: 2s; /* Delay before animation starts */
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

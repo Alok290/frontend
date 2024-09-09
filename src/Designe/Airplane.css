@@ -1,0 +1,13 @@
+@keyframes fly {
+    from {
+        transform: translate(-800px, 0) rotate(60deg); /* Start with rotation at the bottom-left corner */
+    }
+    to {
+        transform: translate(calc(10vw - 50px), calc(-100vh + 50px)) rotate(60deg); /* Move to the top-right corner */
+        opacity: 0; /* Fade out */
+    }
+}
+
+#airplane-icon.fly {
+    animation: fly 3s forwards ease-in-out;
+}

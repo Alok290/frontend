@@ -1,0 +1,56 @@
+.design-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+
+.dotted-pattern {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-image: radial-gradient(#3478f6 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+@keyframes moveSun {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveCloud {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(70px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sun {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  animation: moveSun 6s ease-in-out infinite;
+}
+
+.cloud {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  animation: moveCloud 6s ease-in-out infinite;
+  z-index: 1;
+}
+

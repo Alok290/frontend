@@ -1,0 +1,21 @@
+.gradient-bg {
+    background: linear-gradient(to right, #FCECBC, #DBE2DA,#FAF4DD);
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gradient-text {
+    color: #121111; /* White text color */
+  }
+  .dotted-pattern {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(#3478f6 1px, transparent 1px);
+    background-size: 10px 10px;
+  }
+  

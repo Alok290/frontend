@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import BStep from './bookingSteps/BStep';
+import GradientBackground from './Gredient/GradientBackground';
+import Choose from './whyChooseUs/ChooseUs';
+import Testimonial from './Testimonial/Testmonial';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GradientBackground/>
+      <div>{<Choose/>}</div>
+      <div>{<BStep/>}</div>
+      <div>{<Testimonial/>}</div>
     </div>
   );
 }
