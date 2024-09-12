@@ -3,6 +3,7 @@ import img1 from "../asset/testmonial1.png";
 import img2 from "../asset/testmonial2.png";
 import img3 from "../asset/testmonial3.png";
 import React, { useState, useEffect } from "react";
+import plane from "../asset/completeVector.png";
 
 const testimonials = [
     {
@@ -42,6 +43,9 @@ const Testimonial = () => {
       <div className="testimonial__content__left">
         <h5>Testimonials</h5>
         <h1>What People Say About Us.</h1>
+        <div className="testimonial__image">
+          <img src={plane} alt=""  />
+        </div>
       </div>
       <div className="testimonial__content__right">
         <div className="testimonial__card__content">
