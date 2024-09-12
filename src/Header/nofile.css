@@ -1,0 +1,11 @@
+.noFile{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noImage{
+    width: 600px;
+    margin: 5rem 0rem;
+}
