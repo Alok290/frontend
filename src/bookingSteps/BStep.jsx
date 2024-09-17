@@ -6,7 +6,6 @@ import {
   faMapMarkerAlt,
   faCreditCard,
   faPlaneDeparture,
-  faHeart,
   faMap,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";

@@ -1,7 +1,10 @@
 .choose {
     background-color: #FFFFFF;
     width: 80%;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
     gap: 30px;

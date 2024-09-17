@@ -12,9 +12,9 @@ const Header = () => {
     // Check if the token is present
     const token = localStorage.getItem('token'); // Example method to check token
     if (token) {
-      setIsLoggedIn(true);
+      setIsLoggedIn(false);
     } else {
-      setIsLoggedIn(true);
+      setIsLoggedIn(false);
     }
   }, []);
 

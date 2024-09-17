@@ -2,9 +2,12 @@
   width: 100%;
   top: 0;
   left: 0;
-  position: fixed;
-  z-index: var(--z-fixed);
-  background-color: aqua;
+  z-index:100;
+  background-color: transparent;
+  position: sticky;
+}
+ul{
+  list-style: none;
 }
 
 .nav {
@@ -25,6 +28,8 @@
   display: flex;
   justify-content: center;
   flex: 1;
+  gap: 2rem;
+  list-style-type:none;
 }
 
 .nav__link {
@@ -107,11 +112,11 @@
       left: 0;
   }
 
-  .nav__list {
+  /* .nav__list {
       display: grid;
       grid-template-columns: 1fr;
       row-gap: 2rem;
-  }
+  } */
 
   .nav__icon {
       font-size: 1.2rem;

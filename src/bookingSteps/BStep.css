@@ -2,15 +2,18 @@
   display: flex;
   width: 80%;
   height: auto;
-  margin: 10%;
-  background: radial-gradient(circle at top right, 
+  margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+  /* background: radial-gradient(circle at top right, 
               rgba(255, 255, 255, 0) 0%, 
               #D2EAF7 10px, 
               #D2EAF7 90%, 
               rgba(255, 255, 255, 0) 90%),
     radial-gradient(circle at top right, 
               rgba(255, 255, 255, 0) 20%, 
-              rgba(255, 255, 255, 1) 10px);
+              rgba(255, 255, 255, 1) 10px); */
   background-blend-mode: screen; /* Blend the gradients */
 }
 
